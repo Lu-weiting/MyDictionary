@@ -1,0 +1,98 @@
+body{
+	background-color: #272727;
+}
+
+.header{
+	display: flex;
+	align-items: center;
+	height: 80px;
+}
+
+.name{
+	display: flex;
+	font-size: 30px;
+	margin-left: 80px;
+	color: white;
+	text-shadow: #BEBEBE 0.1em 0.1em 0.2em;
+}
+
+.searchBar{
+	display: flex;
+	align-items: center;
+	width: 600px;
+	background: rgb(255, 255, 255, 0.2);
+	display: flex;
+	align-items: center;
+	border-radius: 60px;
+	height: 40px;
+	margin-left: 80px;
+}
+
+.search{
+	background: transparent;
+	font-size: 20px;
+	flex: 1;
+	border: 0;
+	outline: none;
+}
+
+.searchBar button{
+	background: transparent;
+	border: 0;
+}
+
+#search-img{
+	width: 20px;
+}
+
+#bird-img{
+	width: 100px;
+	margin-right: 10px;
+}
+
+#file{
+	display: none;
+}
+
+#file-img{
+	width: 27px;
+	margin-right: 8px;
+}
+
+.result{
+	display: flex;
+
+}
+
+.resultCard{
+	height: 100%;
+	padding: 0px 20px;
+	width: 100%;
+	color: white;
+}
+
+.resizable{
+	display: flex;
+	width: 100%;
+	height: 790px;
+}
+
+iframe{ 
+	width:100%; 
+	height:100%; 
+	overflow: auto;
+}
+
+.left{
+	border-left: none;
+	resize: horizontal;
+	display: flex;
+	max-width: 100%;
+}
+
+.right{
+	border-right: none;
+	max-width: 100%;
+	
+}
+

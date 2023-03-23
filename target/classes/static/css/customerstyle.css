@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Noto+Sans+TC:wght@500&display=swap');
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+*{
+    font-family: 'Poppins', cursive,'Noto Sans TC';
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    box-sizing: border-box;    
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+ .chartMenu {
+    width: 100vw;
+    height: 40px;
+    background: #1A1A1A;
+    color: white;
+}
+.chartMenu p {
+    padding: 10px;
+    font-size: 20px;
+}
+.chartCard {
+    margin-top: 100px;
+    width: 100vw;
+    height: 50vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chartBox {
+    width: 700px;
+    padding: 20px;
+    border-radius: 20px;
+    border: solid 3px black;
+    
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title{
+  text-align: center;
+    font-size: 2rem;
+}
+.buttonImg{
+    background-image:url('./static/img/in1.png');
+}
+
+.choosebox{
+    width: 500px;
+    height: 500px;
+    margin: 15px 60px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all .3s ease;
+}
+.button-holder{
+    text-align: right;
+}
+.float-button {
+    position: fixed; 
+    height: 90px;
+    width: 40px;
+    bottom: 90px;
+    right: 50px;
+    background: #b4d145;
+}
+
+.sideBar{
+    margin-top: 56px;
+    position: fixed;
+    width: 10%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background: #9D9D9D;
+  }
+  
+  .sideBar ul li{
+    margin: 50px 0;
+    padding: 0 20px;
+  }
+  
+  .sideBar ul li a{
+    color: white;
+    font-size: 20px;
+  }
+  
+  .sideBar ul li a:hover{
+    color: black;
+    margin-left: 30px;
+    transition: 0.4s;
+  }
+  
+  .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .thead-primary tr th{
+    width: 33%;
+  } 
+  .pos{
+    margin-top: 200px;
+  }
+  .place{
+    text-align: left;
+  }
+  .martop{
+    margin-top: 250px;
+  }
+  .marbt{
+    margin-bottom: 200px;
+  }
+  .option-bar{
+    border: none;
+    background-color: #9D9D9D;
+    color: aliceblue;
+    border-radius: 3px;
+  }
+  .option-bar:hover{
+    background-color: #e9e3e3;
+    color: #1A1A1A;
+  }
+

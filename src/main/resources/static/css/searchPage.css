@@ -1,0 +1,176 @@
+.aboutPage {
+	padding: 20px;
+}
+
+.bar-name h1{
+	letter-spacing: 20px;
+	color: white;
+	font-size: 100px;
+	position: relative;
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: end;
+  	text-shadow: #BEBEBE 0.1em 0.1em 0.2em;
+  	height: 350px;
+}
+
+.bar-container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+}
+
+
+.searchBar{
+	width: 100%;
+	max-width: 800px;
+	background: #E0E0E0;
+	display: flex;
+	align-items: center;
+	border-radius: 60px;
+	height: 50px;
+
+}
+
+.searchBar a{
+	background: transparent;
+	border: 0;
+	margin-left: 10px;
+}
+
+.awesomplete{
+	background: transparent;
+	flex: 1;
+	border: 0;
+	outline: none;
+	font-size: 27px;
+}
+
+#search-img{
+	width: 30px;
+}
+
+#cute-img{
+	width: 120px;
+	margin-right: -20px;
+}
+#cute-img1{
+	width: 800px;
+	/*margin-right: -20px;*/
+	margin-left: -3px;
+}
+
+#file {
+
+}
+
+#file-img{
+	width: 35px;
+	margin-right: 15px;
+	margin-top: 8px;
+}
+
+.blank{
+	height: 300px;
+}
+
+#style-1::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+.resultContainer{
+	margin-left: 18%;
+	margin-right: 20%;
+	width: 100%;
+	font-size: 20px;
+	display: flex;
+	border-color: #3c4043;
+	justify-content: space-between;
+}
+
+.blank{
+	height: 100px;
+}
+
+.button-17 {
+	align-items: center;
+	appearance: none;
+	background-color: #878787;
+	border-radius: 24px;
+	border-style: none;
+	box-sizing: border-box;
+	color: #3c4043;
+	cursor: pointer;
+	display: inline-flex;
+	fill: currentcolor;
+	font-family: "Google Sans",Roboto,Arial,sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	height: 35px;
+	justify-content: center;
+	letter-spacing: .25px;
+	line-height: normal;
+	max-width: 50%;
+	overflow: visible;
+	padding: 2px 24px;
+	position: relative;
+	text-align: center;
+	text-transform: none;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	width: auto;
+	will-change: transform,opacity;
+	z-index: 0;
+}
+
+.button-17:hover {
+	background: #F6F9FE;
+	color: #174ea6;
+}
+
+.button-17:active {
+	outline: none;
+}
+
+.button-17:focus {
+	outline: none;
+	border: 2px solid #4285f4;
+}
+
+.fileContainter{
+	height: 150px;
+}
+
+.fileMiddle{
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin-top: 17px;
+}
+
+.fileImage{
+	height: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
