@@ -11,5 +11,12 @@
      --> 以一個句子來說TTF提供的語音包有比較穩定、自然的效果，單字的語音則透過抓取yahoo字典語音包下載（比對api發送請求快些）
 >> * 利用javascript來播放所屬音檔
 
+> Others (額外學習點）
+>> * Javax library中的AudioSystem ,Clip 實作（對讀取音檔，音檔間轉換多了些認識的知識、工具)
+>> * Javazoom library的認識
+
+> The presentation for this side project
+* <https://www.youtube.com/shorts/zwiXTBuwuh8>
+
 
 
