@@ -18,5 +18,8 @@
 > The presentation for this side project
 * <https://www.youtube.com/shorts/zwiXTBuwuh8>
 
+### Note:
+* you have to insert your own chatGPT api key into the ChatGptConfig class~
+
 
 
