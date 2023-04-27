@@ -8,7 +8,7 @@
 >> * 由spring boot框架、Thymeleaf前端模板、RESTful等等概念開發的簡單Web
 >> * 利用OpenAI ChatGPT3.5 api其中的 text-davinci-003 模型來得到翻譯內容
 >> * 利用Google Text-To-Speech api 以及 抓取yahoo字典翻譯語音來得到翻譯內容(中日英)的語音包<br>
-     以一個句子來說TTF提供的語音包有比較穩定、自然的效果，單字的語音則透過抓取yahoo字典語音包下載（比對api發送請求快些）
+     --> 以一個句子來說TTF提供的語音包有比較穩定、自然的效果，單字的語音則透過抓取yahoo字典語音包下載（比對api發送請求快些）
 >> * 利用javascript來播放所屬音檔
 
 
